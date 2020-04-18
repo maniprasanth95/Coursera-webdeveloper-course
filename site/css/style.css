@@ -1,26 +1,49 @@
 h1 {
-	
+	font-size: 30px;
 	text-align: center;
+	margin: 30px;
 }
 
-.row {
-    display: flex;
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
-
+.container{
+	display: flex;
+}
 .column1 {
+    width:33.33333333%;
+    float:left;
+    margin: 15px;
     background-color: #ccc;
-    margin: 20px;
-    padding: 20px;
+    border: solid 2px #000;
 }
 
 .column2 {
+    width:33.33333333%;
+    float:left;
     background-color: #ccc;
-    margin: 20px;
-    padding: 20px;
+    border: solid 2px #000;
+    margin: 15px;
 }
 
 .column3 {
+    width:33.33333333%;
+    float:left;
     background-color: #ccc;
+    border: solid 2px #000;
+    margin: 15px;
+}
+
+p {
     margin: 20px;
-    padding: 20px;
+}
+
+h2 {
+    display: inline-block;
+    margin: -2px;
+    padding: 8px;
+    background: #e5d8;
+    border: 2px solid #000;
 }
