@@ -63,6 +63,9 @@ nav.navbar {
 }
 
 @media (max-width: 768px){
+    ul.navbar-nav {
+    text-align: center;
+}
 
 .lists {
     width: 100%;
