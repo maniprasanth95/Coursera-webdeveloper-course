@@ -42,10 +42,63 @@ h2.text-center {
 
 }
 
+a.navbar-brand {
+        padding: 20px 0;
+    font-weight: 800;
+    font-size: 30px;
+}
 
+button.navbar-toggler {
+    float: right;
+        margin: 22px 0px;
+}
 
+.logo {
+    width: 100%;
+    padding: 0 15px;
+}
 
+nav.navbar {
+    padding: 0;
+}
 
+@media (max-width: 426px){
+
+.lists {
+    width: 100%;
+    background: #fff;
+}
+
+div#navbarNav {
+    border: 2px solid #000;
+}
+
+.navbar-collapse div {
+        padding: 10px 15px 0 15px;
+}
+
+a.navbar-brand {
+        padding: 20px 0;
+
+}
+hr.men {
+    margin: 15px 0 0 0;
+}
+
+}
+
+@media (min-width: 427px) and (max-width: 991px){
+button.navbar-toggler{
+    display: none;
+}
+}
+
+@media (min-width: 992px) {
+
+.lists {
+    display: none;
+}
+}
 
 
 
