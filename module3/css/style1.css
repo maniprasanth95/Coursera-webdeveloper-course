@@ -74,7 +74,7 @@ div#navbarNav {
 }
 
 .navbar-collapse div {
-        padding: 10px 15px 0 15px;
+        padding: 10px 15px 10px 15px;
 }
 
 a.navbar-brand {
@@ -82,7 +82,7 @@ a.navbar-brand {
 
 }
 hr.men {
-    margin: 15px 0 0 0;
+    margin: 10px 0 ;
 }
 
 }
