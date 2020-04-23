@@ -33,7 +33,7 @@ h2.text-center {
 
 }
 
-@media (max-width: 767px){
+@media (max-width: 768px){
 
 .column1 {
     margin: 0 60px 50px 60px;
@@ -62,7 +62,7 @@ nav.navbar {
     padding: 0;
 }
 
-@media (max-width: 426px){
+@media (max-width: 768px){
 
 .lists {
     width: 100%;
@@ -87,7 +87,7 @@ hr.men {
 
 }
 
-@media (min-width: 427px) and (max-width: 991px){
+@media (min-width: 767px) and (max-width: 991px){
 button.navbar-toggler{
     display: none;
 }
