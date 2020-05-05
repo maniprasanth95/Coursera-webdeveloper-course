@@ -6,6 +6,11 @@ body{
   box-sizing: border-box;
 }
 
+a.navbar-brand {
+    padding: 20px 0;
+}
+
+
 .bg-light {
     background-color: #ccc !important;
 }
@@ -42,6 +47,13 @@ h2.text-center {
 
 }
 
+hr.visible-sm {
+    margin-top: 2px;
+}
+
+div#navbarNav {
+    background-color: #fff;
+}
 
 
 

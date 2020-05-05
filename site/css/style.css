@@ -81,15 +81,8 @@ h1 {
  }
 }
 
-@media (max-width: 425px){
-  .column{
-    width: 50%;
-    float: left;
+@media (max-width: 767px){
+.column1 {
+    margin: 0 60px 50px 60px;
   }
-}
-
-@media (max-width: 768px){
-button.navbar-toggler {
-    display: none;
-}
 }
